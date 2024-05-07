@@ -1,0 +1,45 @@
+.doctor-management {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .doctor-management h2 {
+    margin-bottom: 15px;
+  }
+  
+  .doctor-management form {
+    margin-bottom: 15px;
+  }
+  
+  .doctor-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-management th,
+  .doctor-management td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .doctor-management th {
+    background-color: #f2f2f2;
+  }
+  
+  .doctor-management button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .doctor-management button:hover {
+    background-color: #d32f2f;
+  }
+  

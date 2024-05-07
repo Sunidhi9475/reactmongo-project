@@ -1,0 +1,65 @@
+/* AdminPanel.css */
+
+.dashboard {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 80px; /* Adjust the value according to the height of your navbar */
+  max-width: 500px; /* Set maximum width for the dashboard */
+  margin: 0 auto; /* Center the dashboard horizontally */
+}
+
+.login-container {
+  text-align: center;
+  margin-top: 10vh; /* Move the container up by 10% of the viewport height */
+  max-width: 400px; /* Set maximum width for the login container */
+  margin: 0 auto; /* Center the login container horizontally */
+}
+
+.login-container h2,
+.dashboard h2 {
+  text-align: center;
+}
+
+.login-container input,
+.login-container button,
+.dashboard button {
+  display: block;
+  width: 100%; /* Set width to 100% to fill the container */
+  margin: 10px auto; /* Center the input fields and button */
+  padding: 10px;
+  font-size: 19px;
+}
+
+.login-container button,
+.dashboard button {
+  background-color: #002366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover,
+.dashboard button:hover {
+  background-color: #004080;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  background-color: azure;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logout-btn {
+  margin-top: 20px;
+}

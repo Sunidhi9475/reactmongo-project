@@ -1,0 +1,45 @@
+.patient-management {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .patient-management h2 {
+    margin-bottom: 15px;
+  }
+  
+  .patient-management form {
+    margin-bottom: 15px;
+  }
+  
+  .patient-management table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .patient-management th,
+  .patient-management td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .patient-management th {
+    background-color: #f2f2f2;
+  }
+  
+  .patient-management button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .patient-management button:hover {
+    background-color: #d32f2f;
+  }
+  

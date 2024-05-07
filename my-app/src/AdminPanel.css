@@ -1,0 +1,61 @@
+.admin-panel {
+  text-align: center;
+}
+
+.login-container {
+  text-align: center;
+  margin-top: 10vh; /* Move the container up by 10% of the viewport height */
+  max-width: 400px; /* Set maximum width for the login container */
+  margin: 0 auto; /* Center the login container horizontally */
+}
+
+.login-container h2,
+.dashboard h2 {
+  text-align: center;
+}
+
+.login-container input,
+.login-container button,
+.dashboard button {
+  display: block;
+  width: 100%; /* Set width to 100% to fill the container */
+  margin: 10px auto; /* Center the input fields and button */
+  padding: 10px;
+  font-size: 19px;
+}
+
+.login-container button,
+.dashboard button {
+  background-color: #002366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover,
+.dashboard button:hover {
+  background-color: #004080;
+}
+
+.features {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+}
+
+.feature {
+  background-color: azure;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px; /* Add margin between items */
+}
+
+.logout-btn {
+  margin-top: 20px;
+  max-width: 150px; /* Set maximum width */
+  width: auto; /* Allow the button to adjust its width based on content */
+  padding: 10px 20px; /* Add padding to adjust button size */
+}
